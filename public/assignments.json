@@ -1,0 +1,316 @@
+[
+    {
+      "title": "Math Quiz",
+      "image": "https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg?w=996&t=st=1699197763~exp=1699198363~hmac=5074e736ab56c5b74ec2180f9ccce98dae27c3ef3d483a5f7534dac8085800d8",
+      "marks": 60,
+      "description": "This assignment covers a range of mathematical topics, including algebra, geometry, and calculus. Solve a set of challenging math problems to test your skills and deepen your mathematical understanding. The quiz consists of both multiple-choice and open-ended questions that will challenge your problem-solving abilities and mathematical reasoning. It is a great opportunity to practice and enhance your math skills. Make sure to submit your answers by the due date to receive feedback and grades.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-15"
+    },
+    {
+      "title": "Literary Analysis",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-poetry-illustration_23-2149314745.jpg?w=740&t=st=1699198582~exp=1699199182~hmac=92a72654a01a9f696716661478c2f55e6b115728d48380969fd0dc5ae0eb7c67",
+      "marks": 70,
+      "description": "For this assignment, you will delve into a classic piece of literature and provide a comprehensive analysis of its themes, characters, and literary techniques. Choose a literary work that interests you, and prepare an in-depth analysis that demonstrates your critical thinking skills. Explore the nuances of the plot, character development, and the author's style. This assignment requires you to articulate your insights in a well-structured essay format. Your analysis should be a minimum of 300 words to ensure a thorough examination of the literary work.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-30"
+    },
+    {
+      "title": "History Research",
+      "image": "https://img.freepik.com/free-vector/human-resources-management-design_1284-35961.jpg?w=740&t=st=1699198710~exp=1699199310~hmac=e38cf04e0c524c8e7984342777fda7e54e132e34ae7d828aaec3460274a46e29",
+      "marks": 50,
+      "description": "In this assignment, you will have the opportunity to select a historical event or period and conduct a detailed research project. Your research should encompass the historical context, causes, consequences, and significant figures involved. You are encouraged to explore primary and secondary sources to provide a well-rounded understanding of your chosen topic. The assignment should result in a research paper that is a minimum of 300 words. Ensure that your work is well-referenced and provides valuable insights into the historical subject you've chosen.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-10"
+    },
+    {
+      "title": "Physics Experiment",
+      "image": "https://img.freepik.com/free-vector/different-science-equipments-white-background_1308-98328.jpg?w=740&t=st=1699198789~exp=1699199389~hmac=c64a325ad095fbc7ddf763a6d3e47201b31cc34021d6f06d20da3d0361945756",
+      "marks": 70,
+      "description": "In this physics assignment, you will design and conduct an experiment to measure the acceleration due to gravity. Your experiment should include clear procedures, data collection, and data analysis. You are required to provide a detailed report of your experiment, including your methodology, results, and conclusions. The report should be a minimum of 300 words to ensure a thorough description of your experiment and findings. This is a great opportunity to apply your knowledge of physics in a practical setting.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-05"
+    },
+    {
+      "title": "Programming Challenge",
+      "image": "https://img.freepik.com/free-vector/flat-composition-with-programmer-testing-programs-illustration_1284-55908.jpg?w=740&t=st=1699198834~exp=1699199434~hmac=d6e3cc30cad82cc70791538933c3baabf50eecbed5e52335b14e29793dc61d8c",
+      "marks": 70,
+      "description": "This programming challenge will test your coding skills and problem-solving abilities. You will be presented with a complex problem that requires the creation of a computer program. Your solution should be well-documented, and you should provide a detailed explanation of your code and how it addresses the problem. The challenge description will be provided, and you are required to submit a program and a written explanation that is a minimum of 300 words. This assignment is designed to push your programming proficiency to the limit.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-25"
+    },
+    {
+      "title": "Chemistry Lab Report",
+      "image": "https://img.freepik.com/free-vector/flat-laboratory-room-with-microscope_23-2148885022.jpg?w=1060&t=st=1699198908~exp=1699199508~hmac=d1b0f793204f37e83470c7e1cf207a80a76729b4a10840f49f61cd9a6025908f",
+      "marks": 60,
+      "description": "This chemistry assignment requires you to conduct an experiment in the laboratory and prepare a comprehensive lab report. Your report should include the experimental procedure, data collected, analysis of results, and a discussion of the chemical principles involved. Your lab report should be a minimum of 300 words to ensure a detailed and well-explained presentation of your experiment. This assignment is an excellent opportunity to delve into chemical reactions and their applications.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-08"
+    },
+    {
+      "title": "Geography Quiz",
+      "image": "https://img.freepik.com/free-vector/geography-subject-with-worldmap-books_1308-30998.jpg?w=1380&t=st=1699198951~exp=1699199551~hmac=178f9a2b2cf024fc727e0345f8bd1205ee83ba38caa0bda490193f408c5b8141",
+      "marks": 60,
+      "description": "Test your knowledge of world geography with this quiz assignment. You will be presented with a series of questions that cover countries, capitals, geographical features, and global landmarks. The quiz will assess your knowledge of both physical and political geography. Make sure to answer each question with precision and clarity. This quiz is designed to be both informative and challenging, and your responses should be a minimum of 300 words in total to ensure thorough explanations and justifications.",
+      "difficulty_level": "easy",
+      "due_date": "2023-12-20"
+    },
+    {
+      "title": "Biology Research Paper",
+      "image": "https://img.freepik.com/free-vector/microbiology-concept-illustration_1284-6949.jpg?w=740&t=st=1699198995~exp=1699199595~hmac=89b89ec55d48a4a7d0c5d1b6420985ff3ef5f6c674f74034d7366f0661758a02",
+      "marks": 70,
+      "description": "For this assignment, you will select a biological topic of interest and prepare a research paper that explores the significance, recent research findings, and potential applications related to that topic. Your paper should be well-researched and provide valuable insights into the chosen subject. Ensure that you include appropriate citations and references to support your claims. The research paper should be a minimum of 300 words to guarantee a comprehensive examination of the biological subject.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-28"
+    },
+    {
+      "title": "Art Appreciation",
+      "image": "https://img.freepik.com/free-vector/female-artist-easel-teaching-children-painting-with-palette-brushes-tiny-people-art-studio-open-art-classes-modern-arts-gallery-concept_335657-670.jpg?w=1060&t=st=1699199058~exp=1699199658~hmac=7892b2ac216eef0311a2c651004bb35a4f1fd222be97af41fee79068907dee0f",
+      "marks": 60,
+      "description": "This assignment focuses on art appreciation and involves the exploration and analysis of famous artworks from different periods and styles. You will delve into the cultural and historical context of each artwork, analyzing the artistic techniques used and the impact on the art world. Your analysis should be well-structured, with a minimum of 300 words, to ensure a comprehensive discussion of the selected artworks.",
+      "difficulty_level": "easy",
+      "due_date": "2023-12-18"
+    },
+    {
+      "title": "Economics Case Study",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-business-planning-concept_23-2149166771.jpg?w=740&t=st=1699199162~exp=1699199762~hmac=834f45ad32319337a17d62d87a88436a35d00b30e91f78af6e1cf4c014cf9499",
+      "marks": 60,
+      "description": "In this economics assignment, you will analyze a specific case study and provide a comprehensive report on its economic implications, challenges, and potential solutions. Your report should be based on thorough research and include data analysis where relevant. To ensure a comprehensive examination, your report should be a minimum of 300 words. This assignment offers the opportunity to apply economic principles to real-world scenarios.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-12"
+    },
+    {
+      "title": "Environmental Science Project",
+      "image": "https://img.freepik.com/free-vector/flat-biotechnology-concept-with-flask_23-2148886203.jpg?w=740&t=st=1699199249~exp=1699199849~hmac=fa433cc995c4f41597ad871f79b0982071083ba62cb96fd849683d2a4eb46d2a",
+      "marks": 80,
+      "description": "In this assignment, you will undertake a project related to environmental science. Your project should investigate environmental issues, propose solutions, and analyze the potential impact of these solutions. You are encouraged to gather and analyze data, consider the ecological and social aspects, and develop a well-structured project report. The report should be a minimum of 300 words to ensure a detailed description of the project and its findings. This assignment combines science with a focus on sustainability.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-22"
+    },
+    {
+      "title": "Music Theory Test",
+      "image": "https://img.freepik.com/free-vector/music-school-concept-kids-playing-music-instruments-instructor-teaching-music-with-professional-equipment-talented-students-performance-vector-flat-illustration_613284-1889.jpg?w=996&t=st=1699199335~exp=1699199935~hmac=b538fac12aedd474bfdf1a67d8394eea041e5729dc781bc2d2957f2520086399",
+      "marks": 50,
+      "description": "This assignment is designed to test your knowledge of music theory, including notes, scales, intervals, and composition techniques. You will be presented with both multiple-choice and open-ended questions. Your responses to the open-ended questions should be a minimum of 300 words to provide detailed explanations and demonstrate your understanding of the concepts.",
+      "difficulty_level": "easy",
+      "due_date": "2023-12-24"
+    },
+    {
+      "title": "Political Science Essay",
+      "image": "https://img.freepik.com/free-vector/diplomat-online-service-platform-idea-international-relations-government-country-worldwide-representation-embassy-website-isolated-vector-illustration_613284-1518.jpg?w=900&t=st=1699199436~exp=1699200036~hmac=a542c5722968549417341cc0648207cb74f085af7d1bf0a84be5aae09975af1d",
+      "marks": 70,
+      "description": "For this assignment, you will write an essay on a political topic of your choice. The essay should analyze the topic's impact on society, government policies, and potential implications. Your essay should provide a well-structured argument and include relevant examples and evidence. To ensure a comprehensive examination, your essay should be a minimum of 300 words.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-02"
+    },
+    {
+      "title": "Psychology Experiment",
+      "image": "https://img.freepik.com/free-vector/psychologist-concept-mental-health-diagnostic-doctor-treating-human-mind-psychological-test-thoughts-emotions-analysis-vector-illustration-cartoon-style_613284-2841.jpg?w=900&t=st=1699199502~exp=1699200102~hmac=85ac653a7b2c75aaa9e48478995e4f315bb258d311b64ef2af9f47dd761b1518",
+      "marks": 60,
+      "description": "In this assignment, you will design and conduct a psychological experiment to explore human behavior, cognitive processes, or psychological phenomena. Your experiment should include clear procedures, data collection, and data analysis. You are required to provide a detailed report of your experiment, including your methodology, results, and conclusions. The report should be a minimum of 300 words to ensure a thorough description of your experiment and findings.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-07"
+    },
+    {
+      "title": "Sociology Research",
+      "image": "https://img.freepik.com/free-vector/character-illustration-people-with-global-network-concept_53876-66147.jpg?w=900&t=st=1699199579~exp=1699200179~hmac=f6994539185484284473a77f5770c05ec4566f4b1f85d4ef8747e2c039e8e85a",
+      "marks": 50,
+      "description": "For this assignment, you will select a sociological topic of interest and conduct research to understand societal trends, issues, or social phenomena. Your research should include both qualitative and quantitative data, and you should provide a well-structured research report. To ensure a comprehensive examination of the topic, your report should be a minimum of 300 words. This assignment is an opportunity to apply sociological principles to real-world situations.",
+      "difficulty_level": "easy",
+      "due_date": "2023-12-19"
+    },
+    {
+      "title": "Foreign Language Test",
+      "image": "https://img.freepik.com/free-vector/translator-concept-illustration_114360-6154.jpg?w=740&t=st=1699199665~exp=1699200265~hmac=0716cc1263db259188a4d1e5828964990ca0605afadddb5845456e012e3c5c50",
+      "marks": 80,
+      "description": "This foreign language test will assess your proficiency in a non-native language. You will be evaluated on your reading, writing, listening, and speaking skills. Your responses to the test questions should be a minimum of 300 words to ensure a comprehensive demonstration of your language skills.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-29"
+    },
+    {
+      "title": "Philosophy Paper",
+      "image": "https://img.freepik.com/free-vector/hand-hold-stack-books-genius-boy-hand-drawn-sketch-vector-illustration_460848-14902.jpg?w=740&t=st=1699199768~exp=1699200368~hmac=b7d2f7dd96ecd5e97bdef3f1f5e95a3992a60528828c41ee051dcc4ccf1e8d9d",
+      "marks": 60,
+      "description": "In this assignment, you will write a philosophical essay on a chosen topic, exploring various philosophical perspectives, arguments, and counterarguments. Your essay should provide a well-structured argument and include relevant examples and evidence. To ensure a comprehensive examination of the philosophical topic, your essay should be a minimum of 300 words.",
+      "difficulty_level": "medium",
+      "due_date": "2023-12-14"
+    },
+    {
+      "title": "Business Plan",
+      "image": "https://img.freepik.com/free-vector/business-plan-concept-illustration_114360-1450.jpg?w=740&t=st=1699199852~exp=1699200452~hmac=f9b58378ec0b74d760df31cb3c28ed415b0a83a209e6d74e7b6143061c551288",
+      "marks": 70,
+      "description": "For this assignment, you will create a comprehensive business plan for a startup or an existing business. Your plan should include detailed market research, financial projections, marketing strategies, and operational plans. To ensure a comprehensive business plan, your document should be a minimum of 300 words.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-27"
+    },
+    {
+      "title": "Astronomy Project",
+      "image": "https://img.freepik.com/free-vector/astronomy-isometric-illustration_1284-57408.jpg?w=826&t=st=1699199909~exp=1699200509~hmac=6fa4a67e5ca03864e6c720d5cf1ff1b5543ef27dec9da6e0ce65e6fb1c1e57b1",
+      "marks": 50,
+      "description": "In this astronomy assignment, you will undertake a project that involves stargazing, celestial object observations, and astronomical research. Your project should explore topics such as the night sky, planets, stars, and cosmic phenomena. To ensure a comprehensive project, your report should be a minimum of 300 words.",
+      "difficulty_level": "easy",
+      "due_date": "2023-12-21"
+    },
+    {
+      "title": "Health and Nutrition Report",
+      "image": "https://img.freepik.com/free-vector/food-nutritional-quality-abstract-concept-vector-illustration-nutrition-value-health-maintenance-human-metabolism-organic-food-livestock-quality-inspection-certification-abstract-metaphor_335657-2594.jpg?w=740&t=st=1699200024~exp=1699200624~hmac=9d8d5cf42f8c3cf13c327a43d9f3f875d8d2bdcbbb2aaff63e6e13e99d464f78",
+      "marks": 80,
+      "description": "This assignment involves conducting research and preparing a report on health and nutrition. You will explore topics related to dietary choices, the impact of nutrition on overall well-being, and relevant health guidelines. To ensure a comprehensive examination of the subject, your report should be a minimum of 300 words.",
+      "difficulty_level": "hard",
+      "due_date": "2023-11-26"
+    },
+    {
+        "title": "Chemistry Experiment",
+        "image": "https://img.freepik.com/free-vector/scientist-man-laboratory-room-background_1308-93446.jpg?w=996&t=st=1699200066~exp=1699200666~hmac=013dcd415e09c6d3361377f7139aae9cb2da266d961e2dfce6a4160ce52963e3",
+        "marks": 70,
+        "description": "In this chemistry assignment, you will plan and execute an experiment that explores chemical reactions and principles. Your experiment should be well-documented, with a clear methodology, data collection, and analysis. The experiment's report should be a minimum of 300 words to ensure a comprehensive description of your work. This assignment offers an opportunity to gain practical chemistry experience and deepen your understanding of chemical processes.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-12"
+      },
+      {
+        "title": "Language and Culture Study",
+        "image": "https://img.freepik.com/free-vector/young-people-talking-different-languages-illustrations-set_23-2148370672.jpg?w=1060&t=st=1699200135~exp=1699200735~hmac=fd2d56cdaf222e436c95fefc72cb6c48e56a2d2a3654d445febdbfe93831dcef",
+        "marks": 60,
+        "description": "This assignment focuses on the study of a foreign language and its cultural context. You will choose a language of interest and research its history, cultural significance, and influence. The assignment should include language basics and an in-depth exploration of the chosen culture. Your report should be a minimum of 300 words, ensuring a comprehensive examination of the language and its cultural ties.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-08"
+      },
+      {
+        "title": "Environmental Sustainability Project",
+        "image": "https://img.freepik.com/free-vector/save-planet-concept-with-people-earth_23-2148526184.jpg?w=1060&t=st=1699200245~exp=1699200845~hmac=29651fe86225a7938b1b26b97346964f3133cd458114f611dacb73bb6bb8f08b",
+        "marks": 70,
+        "description": "In this assignment, you will undertake a sustainability project that focuses on environmental conservation and eco-friendly practices. Your project should include research, practical solutions, and an action plan for promoting environmental sustainability. Your project report should be a minimum of 300 words, detailing your initiatives and their potential impact on the environment.",
+        "difficulty_level": "hard",
+        "due_date": "2023-11-25"
+      },
+      {
+        "title": "Medical Case Study",
+        "image": "https://img.freepik.com/free-vector/scientists-working-modern-laboratory_1262-19876.jpg?w=1060&t=st=1699200292~exp=1699200892~hmac=3a3193ca2cb7f235c5e7719640ded4db3ace49211ea3e76dced63ad7034b49c3",
+        "marks": 60,
+        "description": "This assignment involves a comprehensive case study in the field of medicine. You will select a medical case, investigate the patient's history, symptoms, diagnosis, and treatment. Your case study should provide detailed insights into the medical condition and be a minimum of 300 words in length.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-10"
+      },
+      {
+        "title": "Computer Science Project",
+        "image": "https://img.freepik.com/free-vector/set-mix-computer-code_1308-130494.jpg?w=826&t=st=1699200386~exp=1699200986~hmac=f512490dcde3b675c182fc113deb211bfaa7272b19979125613e22002dfa3640",
+        "marks": 80,
+        "description": "In this assignment, you will undertake a computer science project that involves software development, coding, and problem-solving. Your project should aim to address a real-world problem using technology. Your project report should be a minimum of 300 words, providing a detailed description of your project's objectives, methodology, and results.",
+        "difficulty_level": "hard",
+        "due_date": "2023-11-28"
+      },
+      {
+        "title": "Social Issues Analysis",
+        "image": "https://img.freepik.com/free-vector/illustrated-people-brainstorming-business-growth_53876-37270.jpg?w=740&t=st=1699200450~exp=1699201050~hmac=c5db3d14914e510f932e278d92a5490762b01f8384fd152b962dad29cced81d4",
+        "marks": 50,
+        "description": "This assignment focuses on social issues analysis. You will choose a current social issue, investigate its causes, effects, and potential solutions. Your analysis should be well-researched and include both qualitative and quantitative data. The analysis should be a minimum of 300 words to ensure a comprehensive examination of the social issue.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-20"
+      },
+      {
+        "title": "Creative Writing Project",
+        "image": "https://img.freepik.com/free-vector/notes-concept-illustration_114360-839.jpg?w=740&t=st=1699200536~exp=1699201136~hmac=d53aec80f02f1de004eda92bed6a663749995f3c90369a0f6012e9faa65315d0",
+        "marks": 60,
+        "description": "For this assignment, you will embark on a creative writing project. You have the freedom to choose your genre, whether it's fiction, poetry, or creative non-fiction. Your project should be well-structured, and you should aim to create a compelling narrative or piece of creative writing. The project should be a minimum of 300 words, demonstrating your creative and storytelling skills.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-05"
+      },
+      {
+        "title": "Business Strategy Analysis",
+        "image": "https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg?w=1060&t=st=1699200586~exp=1699201186~hmac=3d454b1622662809777d7a540a832fa08519f5d14c23630e04b644926c1caa30",
+        "marks": 70,
+        "description": "This assignment involves analyzing a business's strategy and performance. You will select a company and conduct a detailed analysis of its business strategy, financial performance, and market positioning. Your analysis should include recommendations for improvement and be a minimum of 300 words to provide a comprehensive review.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-15"
+      },
+      {
+        "title": "Social Psychology Experiment",
+        "image": "https://img.freepik.com/free-vector/neuromarketing-isometric-concept-white-background-with-human-brain-characters-scientists-doing-research-3d-vector-illustration_1284-82515.jpg?w=900&t=st=1699200673~exp=1699201273~hmac=eaeb8cebd8e10c7d6abcfe47dfb5d76ee9b2fdf6598f49558a929e5502c62f46",
+        "marks": 70,
+        "description": "In this assignment, you will design and execute a social psychology experiment. Your experiment should explore topics related to human behavior in social situations. You will need to develop a research plan, gather data, and analyze the results. Your experiment report should be a minimum of 300 words to ensure a thorough description of your work.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-05"
+      },
+      {
+        "title": "Physics Research Paper",
+        "image": "https://img.freepik.com/free-vector/physics-school-subject-concept-scientist-explore-electricity-magnetism-light-wave-forces-theoretical-practical-study-physics-lesson-experiment-isolated-vector-illustration_613284-1911.jpg?w=740&t=st=1699200727~exp=1699201327~hmac=aad715b840e36145ff0011479f462c4bc66902bb6b990266b30223ab589a6f01",
+        "marks": 60,
+        "description": "For this assignment, you will delve into a physics topic of interest and prepare a research paper that explores the subject's significance, recent research findings, and practical applications. Your research paper should be well-referenced and provide valuable insights into the chosen physics topic. The research paper should be a minimum of 300 words to ensure a comprehensive examination.",
+        "difficulty_level": "hard",
+        "due_date": "2023-12-10"
+      },
+      {
+        "title": "Art History Analysis",
+        "image": "https://img.freepik.com/free-vector/archaeological-expedition-concept-with-ancient-remains-artifacts-symbols-isometric_1284-33408.jpg?w=740&t=st=1699200793~exp=1699201393~hmac=70c270c9e8ae60eb324d33e954b34af0880d1bd77ead253c89b7498a8d7cde56",
+        "marks": 70,
+        "description": "This assignment involves analyzing and discussing the history of art, focusing on a specific artistic era, movement, or artist. You will explore the cultural and historical context of the chosen art period, examining its key features and influences. Your analysis should be a minimum of 300 words to ensure a comprehensive examination of the art history topic.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-20"
+      },
+      {
+        "title": "Environmental Impact Assessment",
+        "image": "https://img.freepik.com/free-vector/global-co2-emissions-illustration_335657-4748.jpg?w=740&t=st=1699200854~exp=1699201454~hmac=b546713941cefb846794783ff8a8cd7c8d575ef13a781c8c1e6fc8112f74cc18",
+        "marks": 70,
+        "description": "In this assignment, you will conduct an environmental impact assessment (EIA) for a specific project, development, or policy. Your EIA should evaluate potential environmental effects, including ecological, social, and economic impacts. You should propose mitigation measures and analyze the overall sustainability of the project. Your assessment report should be a minimum of 300 words to ensure a comprehensive evaluation.",
+        "difficulty_level": "hard",
+        "due_date": "2023-11-30"
+      },
+      {
+        "title": "Cultural Diversity Research",
+        "image": "https://img.freepik.com/free-vector/flat-world-population-day-background-with-planet-people_23-2149427306.jpg?w=1060&t=st=1699200924~exp=1699201524~hmac=1fe72b06ab3edb682aa1860f26f7ec1bbd9023ba2974242f7ef6927b658c1bb2",
+        "marks": 50,
+        "description": "This assignment focuses on cultural diversity research, encouraging you to explore various aspects of cultural differences and multiculturalism. You will investigate the impact of cultural diversity on societies, organizations, and individual experiences. Your research report should be a minimum of 300 words, providing a comprehensive exploration of cultural diversity.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-19"
+      },
+      {
+        "title": "Political Debate Analysis",
+        "image": "https://img.freepik.com/free-vector/two-politicians-taking-part-political-debates-front-audience-isolated-flat-illustration_74855-14188.jpg?w=996&t=st=1699200972~exp=1699201572~hmac=bd78e557679cc9bbdbb0029037669ebd14637af765d3721a66e32c5b1a5f858a",
+        "marks": 60,
+        "description": "For this assignment, you will analyze a political debate or public policy discussion. You will examine the arguments presented, evaluate the effectiveness of communication, and assess the impact on public opinion. Your analysis should be well-structured and a minimum of 300 words, ensuring a comprehensive examination of the political debate or discussion.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-07"
+      },
+      {
+        "title": "Criminal Justice Case Study",
+        "image": "https://img.freepik.com/free-vector/law-corners-set_1284-5704.jpg?w=740&t=st=1699201057~exp=1699201657~hmac=a09c72f0e673939ef0e27bd353de05ebb5f4a6e38d6e37cf22bf2620795b2671",
+        "marks": 60,
+        "description": "This assignment involves a comprehensive case study in the field of criminal justice. You will select a criminal case, investigate the legal proceedings, evidence, and implications. Your case study should provide detailed insights into the case's legal aspects and be a minimum of 300 words in length.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-14"
+      },
+      {
+        "title": "Philosophy of Ethics Essay",
+        "image": "https://img.freepik.com/free-vector/graduated-lawyer-concept-illustration_114360-13892.jpg?w=740&t=st=1699201117~exp=1699201717~hmac=2ac4e17501e395cf6d6e4b598f7d8e0de826ac611cb626a2648ed084436b119d",
+        "marks": 60,
+        "description": "In this assignment, you will write an essay on the philosophy of ethics, exploring different ethical theories, principles, and dilemmas. Your essay should provide a well-structured argument and include relevant examples and evidence. To ensure a comprehensive examination of the topic, your essay should be a minimum of 300 words.",
+        "difficulty_level": "medium",
+        "due_date": "2023-12-15"
+      },
+      {
+        "title": "Global Health Issues Research",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-epidemiology-illustration_23-2149707548.jpg?w=740&t=st=1699201197~exp=1699201797~hmac=e163ece657ab717dca0b2e025ec8090cec1a30bf91d8d3069063bdf83b486ac7",
+        "marks": 70,
+        "description": "This assignment focuses on global health issues research. You will select a critical global health problem, investigate its causes, effects, and potential solutions. Your research should include both qualitative and quantitative data. The research report should be a minimum of 300 words to ensure a comprehensive examination of the global health issue.",
+        "difficulty_level": "hard",
+        "due_date": "2023-11-25"
+      },
+      {
+        "title": "Literary Critique",
+        "image": "https://img.freepik.com/free-vector/old-professor-glasses-reading-book_3446-151.jpg?w=740&t=st=1699201274~exp=1699201874~hmac=07b58d21d4f0c3355307c471f25504a45146d9b783555e99f1cb87f7cbc4b827",
+        "marks": 60,
+        "description": "In this assignment, you will critique a piece of literature, analyzing its strengths and weaknesses. You will provide an in-depth examination of the plot, characters, and literary techniques used. Your critique should be well-structured, with a minimum of 300 words, to ensure a comprehensive assessment of the literary work.",
+        "difficulty_level": "easy",
+        "due_date": "2023-12-18"
+      },
+      {
+        "title": "History and Politics Essay",
+        "image": "https://img.freepik.com/free-vector/vintage-books-with-paper-scroll-feather-ink-pot-colored-sketch-decorative-concept-vector-illustration_1284-2997.jpg?w=740&t=st=1699201353~exp=1699201953~hmac=66e083a7347be70cf96eaa1085eb01c639f4ba614105645dd9a48fe54596c036",
+        "marks": 70,
+        "description": "For this assignment, you will write an essay that explores the interplay between history and politics. You will select a historical event or period and analyze its political context and implications. Your essay should provide a well-structured argument and include relevant examples and evidence. To ensure a comprehensive examination of the topic, your essay should be a minimum of 300 words.",
+        "difficulty_level": "medium",
+        "due_date": "2023-11-29"
+      }
+    
+  ]
+  
