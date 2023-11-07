@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="w-full mx-auto flex flex-col-reverse md:flex-row bg-black rounded-lg">
+        <div className="w-[90%] mx-auto flex flex-col-reverse md:flex-row bg-black rounded-lg">
             <div className="flex-1 pt-8">
                 <img className="max-h-[650px]" src="https://assets-global.website-files.com/5f0d7ff1afcb6aeeb0ccf28d/64b54ee56899c9e4de851b63_people.webp" alt="" />
             </div>

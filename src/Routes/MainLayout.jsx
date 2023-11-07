@@ -5,7 +5,7 @@ import Sidebar from "../Pages/Home/Sidebar";
 
 const MainLayout = () => {
     return (
-        <div className="w-[90%] mx-auto">
+        <div className="">
             <div className="drawer">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
