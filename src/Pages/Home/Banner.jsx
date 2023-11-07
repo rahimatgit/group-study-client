@@ -1,11 +1,11 @@
 
 const Banner = () => {
     return (
-        <div className="w-[90%] mx-auto flex flex-col-reverse md:flex-row bg-black rounded-lg">
+        <div className="w-[90%] mx-auto flex flex-col md:flex-row bg-black rounded-lg">
             <div className="flex-1 pt-8">
                 <img className="max-h-[650px]" src="https://assets-global.website-files.com/5f0d7ff1afcb6aeeb0ccf28d/64b54ee56899c9e4de851b63_people.webp" alt="" />
             </div>
-            <div className="flex-1 px-4">
+            <div className="flex-1 p-4">
                 <div className="space-y-8 mt-10">
                  <h2 className="text-2xl font-bold md:text-5xl text-gray-300">Welcome to</h2>   
                 <h2 className="text-4xl font-bold md:text-7xl text-gray-300">Assign<span className="text-blue-500">Mate</span></h2>
