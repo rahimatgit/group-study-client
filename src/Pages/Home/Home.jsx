@@ -1,3 +1,4 @@
+import Faq from "../../Components/Faq";
 import Featured from "../../Components/Featured";
 import Banner from "./Banner";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Featured></Featured>
+            <Faq></Faq>
         </div>
     );
 };
