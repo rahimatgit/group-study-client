@@ -7,6 +7,9 @@ import Register from '../Pages/Register';
 import Login from '../Pages/Login';
 import Assignments from '../Pages/Assignments';
 import PrivateRoute from "./PrivateRoute";
+import CreateAssignment from "../Pages/CreateAssignment";
+import SubmittedAssignment from "../Pages/SubmittedAssignment";
+import MyAssignment from "../Pages/MyAssignment";
 
   export const router = createBrowserRouter([
     {
@@ -27,7 +30,20 @@ import PrivateRoute from "./PrivateRoute";
         },
         {
             path: "/assignments",
-            element: <PrivateRoute><Assignments></Assignments></PrivateRoute>
+            element: <PrivateRoute><Assignments></Assignments></PrivateRoute>,
+            loader: () => fetch('http://localhost:5000/assignmentCount')
+        },
+        {
+          path: "/create",
+          element: <CreateAssignment></CreateAssignment>
+        },
+        {
+          path: "/submitted",
+          element: <SubmittedAssignment></SubmittedAssignment>
+        },
+        {
+          path: "/my-assignment",
+          element: <MyAssignment></MyAssignment>
         }
       ]
     },

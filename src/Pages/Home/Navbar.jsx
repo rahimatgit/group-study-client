@@ -43,33 +43,40 @@ const Navbar = () => {
                                     logout
                                 </NavLink> */}
                     {
-                    user ?
+                        user ?
 
-                        <div className="flex flex-col mt-5 md:mt-0 lg:mt-0 md:flex-row lg:flex-row ">
-                            
-                            <NavLink onClick={handleLogout} className="btn btn-primary btn-sm">
-                                Logout
-                            </NavLink>
-                            
-                            <div className="avatar mx-3 mt-2 md:mt-0 lg:mt-0">
-                                <div className="w-10 rounded-full ring  ring-blue-500 ring-offset-2">
-                                    <img src={user.photoURL} />
+                            <div className="flex flex-col gap-2 mt-5 md:mt-0 lg:mt-0 md:flex-row lg:flex-row ">
+                                <NavLink to="/create" className="btn btn-primary btn-sm">
+                                    Create Assignment
+                                </NavLink>
+                                <NavLink to="/submitted" className="btn btn-primary btn-sm">
+                                    Submitted Assignments
+                                </NavLink>
+                                <NavLink to="/my-assignment" className="btn btn-primary btn-sm">
+                                    My Assignment
+                                </NavLink>
+                                <NavLink onClick={handleLogout} className="btn btn-primary btn-sm">
+                                    Logout
+                                </NavLink>
+                                <div className="avatar mx-3 mt-2 md:mt-0 lg:mt-0">
+                                    <div className="w-10 rounded-full ring  ring-blue-500 ring-offset-2">
+                                        <img src={user.photoURL} />
+                                    </div>
                                 </div>
+                                <p className="mx-3 text-blue-500 font-bold mt-2 md:mt-0 lg:mt-0">{user.displayName}</p>
                             </div>
-                            <p className="mx-3 text-blue-500 font-bold mt-2 md:mt-0 lg:mt-0">{user.displayName}</p>
-                        </div>
-                        :
-                        <div className="flex gap-2 flex-col mt-5 md:mt-0 lg:mt-0 md:flex-row lg:flex-row items-center ">
-                            <NavLink to="/login" className="btn btn-primary btn-sm">
-                                Login
-                            </NavLink>
-                            <NavLink to="/register" className="btn btn-primary btn-sm">
-                                Register
-                            </NavLink>
-                        </div>
-                }
+                            :
+                            <div className="flex gap-2 flex-col mt-5 md:mt-0 lg:mt-0 md:flex-row lg:flex-row items-center ">
+                                <NavLink to="/login" className="btn btn-primary btn-sm">
+                                    Login
+                                </NavLink>
+                                <NavLink to="/register" className="btn btn-primary btn-sm">
+                                    Register
+                                </NavLink>
+                            </div>
+                    }
                 </div>
-                
+
             </div>
         </div>
     );
