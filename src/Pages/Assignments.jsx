@@ -61,7 +61,7 @@ const Assignments = () => {
                     <button onClick={handlePrevPage} className='btn mr-5'>Previous</button>
                     {
                         pages.map(page => <button
-                            className={currentPage === page ? 'bg-orange-500 text-white ': undefined}
+                            className={currentPage === page ? 'bg-orange-500 text-white btn btn-primary mx-3': undefined}
                             onClick={() => setCurrentPage(page)}
                             key={page}
                         >{page}</button>)
