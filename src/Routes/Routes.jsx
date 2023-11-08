@@ -10,6 +10,7 @@ import PrivateRoute from "./PrivateRoute";
 import CreateAssignment from "../Pages/CreateAssignment";
 import SubmittedAssignment from "../Pages/SubmittedAssignment";
 import MyAssignment from "../Pages/MyAssignment";
+import Update from "../Components/Update";
 
   export const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ import MyAssignment from "../Pages/MyAssignment";
         {
             path: "/assignments",
             element: <PrivateRoute><Assignments></Assignments></PrivateRoute>,
-            loader: () => fetch('http://localhost:5000/assignmentCount')
+            loader: () => fetch('https://assignment-11-group-study-server.vercel.app/assignmentCount')
         },
         {
           path: "/create",
@@ -44,6 +45,11 @@ import MyAssignment from "../Pages/MyAssignment";
         {
           path: "/my-assignment",
           element: <MyAssignment></MyAssignment>
+        },
+        {
+          path: "/update/:id",
+          element: <Update></Update>,
+          loader: ({params}) => fetch(`https://assignment-11-group-study-server.vercel.app/assignments/${params.id}`)
         }
       ]
     },

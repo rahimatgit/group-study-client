@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 const AssignmentCard = ({ assignment }) => {
 
-    const {image, title, marks, difficulty_level} = assignment;
+    const {image, title, marks, difficulty_level, _id} = assignment;
 
     return (
         <div>
@@ -16,8 +17,14 @@ const AssignmentCard = ({ assignment }) => {
                     <p className="text-lg font-bold">Marks: <span className="font-normal">{marks}</span></p>
                     <div className="card-actions justify-end">
                         <button className="btn btn-info">View</button>
-                        <button className="btn btn-info">Update</button>
+                        <button className="btn btn-info">
+                            <Link to={`/update/${_id}`}>
+                                Update
+                            </Link>
+                        </button>
                         <button className="btn btn-info">Delete</button>
+                    
+                        
                     </div>
                 </div>
             </div>

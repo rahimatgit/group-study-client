@@ -18,7 +18,7 @@ const Assignments = () => {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/assignments?page=${currentPage}&size=${itemsPerPage}`)
+        axios.get(`https://assignment-11-group-study-server.vercel.app/assignments?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => {
                 setAssignments(res.data)
             })
