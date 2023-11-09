@@ -11,6 +11,8 @@ import CreateAssignment from "../Pages/CreateAssignment";
 import SubmittedAssignment from "../Pages/SubmittedAssignment";
 import MyAssignment from "../Pages/MyAssignment";
 import Update from "../Components/Update";
+import View from "../Components/View";
+import TakeAssignment from "../Components/TakeAssignment";
 
   export const router = createBrowserRouter([
     {
@@ -50,6 +52,15 @@ import Update from "../Components/Update";
           path: "/update/:id",
           element: <Update></Update>,
           loader: ({params}) => fetch(`https://assignment-11-group-study-server.vercel.app/assignments/${params.id}`)
+        },
+        {
+          path: "/view/:id",
+          element: <View></View>,
+          loader: ({params}) => fetch(`https://assignment-11-group-study-server.vercel.app/assignments/${params.id}`)
+        },
+        {
+          path: "/take/:id",
+          element: <TakeAssignment></TakeAssignment>
         }
       ]
     },
