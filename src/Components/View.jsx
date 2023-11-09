@@ -1,3 +1,4 @@
+import axios from "axios";
 import { Link, useLoaderData } from "react-router-dom";
 
 
@@ -15,6 +16,9 @@ const View = () => {
 
         const submittedAssignment = { email, title, image, marks, difficulty_level, description, due_date, pdf, submittedDescription };
         console.log(submittedAssignment);
+        
+        axios.post('https://assignment-11-group-study-server.vercel.app/submitted', submittedAssignment)
+        .then(res => console.log(res.data))
     }
 
     return (
@@ -33,42 +37,38 @@ const View = () => {
                         {/* <button className="btn btn-primary">
                             <Link to={`/take/${_id}`}>Take assignment</Link>
                         </button> */}
-                        {/* Open the modal using document.getElementById('ID').showModal() method */}
-                        <button className="btn" onClick={() => document.getElementById('my_modal_1').showModal()}>Take Assignment</button>
-                        <dialog id="my_modal_1" className="modal">
+                        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                        <button className="btn" onClick={() => document.getElementById('my_modal_3').showModal()}>Take Assignment</button>
+                        <dialog id="my_modal_3" className="modal">
                             <div className="modal-box">
-                                <h3 className="font-bold text-lg text-center">Submit Your Assignment!</h3>
-                                <form onSubmit={handleSubmit}>
-                                    <div>
+                                <form method="dialog">
+                                    {/* if there is a button in form, it will close the modal */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                </form>
+                                <h3 className="font-bold text-lg text-center">Submit Your Assignment</h3>
+                                <form onSubmit={handleSubmit} className="card-body">
+                                    <div className="form-control">
                                         <label className="label">
                                             <span className="label-text">Email</span>
                                         </label>
-                                        <input name="email" type="email" placeholder="email" className="input input-bordered w-full" />
+                                        <input name="email" type="email" placeholder="email" className="input input-bordered" required />
                                     </div>
-                                    <div>
+                                    <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Assignment PDF</span>
+                                            <span className="label-text">Password</span>
                                         </label>
-                                        <input name="pdf" type="text" placeholder="pdf link" className="input input-bordered w-full " />
+                                        <input name="pdf" type="text" placeholder="pdf" className="input input-bordered" required />
                                     </div>
-                                    <div>
+                                    <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Description</span>
+                                            <span className="label-text">Password</span>
                                         </label>
-                                        <textarea name="submittedDescription" placeholder="description" className="textarea textarea-bordered textarea-lg w-full " ></textarea>
+                                        <textarea name="submittedDescription" placeholder="description" className="textarea textarea-bordered textarea-lg w-full" ></textarea>
                                     </div>
-                                    <div className="modal-action">
-                                        <button className="btn btn-warning mr-2">Submit</button>
-                                        <button className="btn">Cancel</button>
+                                    <div className="form-control mt-6">
+                                        <button className="btn btn-warning">Submit</button>
                                     </div>
                                 </form>
-                                <div className="modal-action">
-                                    <form method="dialog">
-                                        <button onClick={handleSubmit} className="btn btn-warning mr-2">Submit</button>
-                                        {/* if there is a button in form, it will close the modal */}
-                                        <button className="btn">Cancel</button>
-                                    </form>
-                                </div>
                             </div>
                         </dialog>
                     </div>
