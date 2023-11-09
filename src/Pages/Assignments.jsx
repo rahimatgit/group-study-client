@@ -16,6 +16,15 @@ const Assignments = () => {
     // console.log(count, numberOfPages);
     // console.log(pages);
 
+    // useEffect(() => {
+    //     axios.get(`https://assignment-11-group-study-server.vercel.app/assignments?`)
+    // }, [])
+
+    const inputField = document.getElementById('difficulty');
+    // const difficulty = inputField.value;
+    console.log(inputField);
+    // console.log(difficulty);
+
 
     useEffect(() => {
         axios.get(`https://assignment-11-group-study-server.vercel.app/assignments?page=${currentPage}&size=${itemsPerPage}`)
@@ -45,6 +54,16 @@ const Assignments = () => {
     return (
         <div className="w-[80%] mx-auto mt-12">
             <h2 className="text-5xl font-bold text-center mb-12">Assignments</h2>
+            <form>
+            <div className="input-group w-1/3 mx-auto">
+                <select  id="difficulty" name="difficulty" className="w-full select select-bordered">
+                    <option disabled selected>Pick category</option>
+                    <option>easy</option>
+                    <option>medium</option>
+                    <option>hard</option>
+                </select>
+            </div>
+            </form>
             <div className="mt-6 grid grid-cols-1  lg:grid-cols-3 gap-6">
                 {
                     assignments.map(assignment => <AssignmentCard
@@ -61,7 +80,7 @@ const Assignments = () => {
                     <button onClick={handlePrevPage} className='btn mr-5'>Previous</button>
                     {
                         pages.map(page => <button
-                            className={currentPage === page ? 'bg-orange-500 text-white btn btn-primary mx-3': undefined}
+                            className={currentPage === page ? 'bg-orange-500 text-white btn btn-primary mx-3' : undefined}
                             onClick={() => setCurrentPage(page)}
                             key={page}
                         >{page}</button>)

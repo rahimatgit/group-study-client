@@ -1,8 +1,14 @@
-# React + Vite
+# AssignMate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site link: https://assignment-11-group-study.web.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key features of the website
+- Here users can create assignment from Create Assignment page
+- Any user can participate on any assignment from Assignments page
+- Only the user who had created a specific assignment can update or delete it 
+- Any  user can give marks to other user's assignments from Submitted Assignments page
+- One user can see his/her assignment records and marks from My Assignment page
+- Without logging in, no user can access these services. 
+
+

@@ -33,7 +33,7 @@ import TakeAssignment from "../Components/TakeAssignment";
         },
         {
             path: "/assignments",
-            element: <PrivateRoute><Assignments></Assignments></PrivateRoute>,
+            element: <Assignments></Assignments>,
             loader: () => fetch('https://assignment-11-group-study-server.vercel.app/assignmentCount')
         },
         {
